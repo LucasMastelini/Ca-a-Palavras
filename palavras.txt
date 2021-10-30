@@ -1,0 +1,143 @@
+QUESTÕES: 
+1.	Desenhe sobre um esquema báscio de arquitetura de computadores e seus componentes
+2.	O que é a CPU? (*)
+3.	O que a ULA?(*)
+4.	O que são os registradores, para que servem, onde se localizam? (*)
+5.	Quais são os tipos de memórias e qual a finalidade de cada uma delas: RAM, ROM, Eprom, Flash, memória de massa. (**)
+6.	O que é o DMA, para que serve, como funciona?(*)
+7.	O que é o CS – Chip select? (*)
+8.	O que é o adress bus e o data bus? (**)
+9.	Pesquisa sobre a arquitetura do processador I5 e do I7,  qual seu fabricante, início de fabricação, principais características. (**)
+10.	O que é um processador dual core e quad core? Dê exemplos. (**)
+
+Utilize o material da aula e se houver dúvidas pesquise nos materiais disponíveis em pdf.
+Resposta suscintas e objetivas. Como se vc tivesse que preparra uma inteligência artificial para responder.
+
+Ao final vc deve construir um jogo de palavras cruzadas.
+
+Para que cada palavra acima em vermelho seja a resposta e deve ajustar o jogo de maneira que todos combinem e fiquem agrupados. Lembre do jogo de palavras em binário da avaliação? Essa é a dica.
+
+[22:46, 29/10/2021] Guinas Facul: 
+UNIDADE CENTRAL DE PROCESSAMENTO - 
+CPU
+
+Esta parte do processador realiza todas as operações lógicas e aritméticas, possuindo além da
+própria Unidade Lógica e Aritmética, os registradores (Acumulador, registradores de propósito
+gerais e especiais) e a Unidade de Controle.
+
+"É um processador que realiza TODAS AS OPERAÇÕES LÓGICAS E ARITIMETICAS."
+
+
+[22:46, 29/10/2021] Guinas Facul: Registradores: 
+
+corresponde a uma memória local rápida do microprocessador,
+destinada ao armazenamento de dados e instruções. Um registrador pode ser:
+o De propósito geral: utilizado por exemplo, para as operações de movimentação
+de dados e operações lógicas e aritméticas.
+o Especiais: são registradores com funções específicas para determinados fins.
+São exemplos de registradores especiais:
+
+"Corresponde a uma memória local rápida do microprocessador,
+destinada ao armazenamento de dados e instruções"
+
+[22:48, 29/10/2021] Guinas Facul: Unidade Lógica e Aritmética - ULA: implementa as operações lógicas (NOT, AND, OR,
+XOR) e aritméticas (geralmente adição, subtração, multiplicação, divisão, dependendo
+do microprocessador). Em geral, o resultado de uma operação é armazenado no
+acumulador.
+
+"Implementa as operações lógicas (NOT, AND, OR,
+XOR) e aritméticas"
+
+
+[22:50, 29/10/2021] Guinas Facul: O DMA é um recurso da placa mãe que capacita os periféricos a terem acesso direto à memória
+RAM, sem sobrecarregarem o processador. Com o DMA, as transferências de dados ocorrem
+sem a intervenção da CPU por cada byte que é transferido
+
+
+"É um recurso da placa mãe que capacita os periféricos a terem acesso direto à memória
+RAM"
+
+
+[22:54, 29/10/2021] Guinas Facul: eleção de chip ou seleção de escravo é o nome de uma linha de controle na eletrônica digital usada para selecionar um dos circuitos integrados dentre vários conectados ao mesmo barramento de computador, geralmente utilizando a lógica de três estados.
+
+"É o nome de uma linha de controle na eletrônica digital usada para selecionar um dos circuitos integrados dentre vários conectados ao mesmo barramento de computador"
+
+[22:57, 29/10/2021] Lucas: 
+A memória RAM é um tipo de tecnologia que permite o acesso aos arquivos armazenados no computador. Diferentemente da memória do HD, a RAM não armazena conteúdos permanentemente. ... Ou seja, de forma não-sequencial, por isso, a nomenclatura em inglês de Random Access Memory (Memória de Acesso Aleatório)
+
+"Memória na qual não se armazena conteúdos pérmanentementes"
+
+[22:59, 29/10/2021] Guinas Facul:  Barramento de dados: Circulam os dados que são recebidos ou enviados. Um
+processador de 16-bits tem 16 fios transmitindo dados e recebendo dados, um de 32-
+bits terá o dobro e assim sucessivamente
+
+"Esta entre o pino do preocessador e o pino da memória, é por onde irculam os dados que são recebidos ou enviados"
+
+ Barramento de endereços: Permite identificar qual o componente e a localização exata
+dentro dele, para que o processador possa comunicar com ele e enviar os respectivos
+dados.
+
+"Porta de entrada na qual permite identificar qual o componente e a localização exata
+dentro dele"
+
+ Barramento de controle: Tem como função principal a sincronização do processador
+com o restante dos componentes. Atua como um regulador das outras funções, podendo
+limitá-las ou expandi-las em razão de sua demanda.
+
+[23:02, 29/10/2021] 
+Lucas: O termo ROM, a rigor, serve para diferenciar uma memória que só pode ser lida, e nunca escrita, de uma que tem caráter randômico: permite que dados sejam escritos, lidos e apagados sem problemas. ROM é uma sigla no inglês para “memória somente de leitura”. ... Um bom exemplo de memória ROM é a BIOS do seu computador
+
+"Serve para diferenciar uma memoria que só pode ser lida, e nunca escrita
+
+[23:03, 29/10/2021] 
+Lucas: EPROM, ou Erasable Programmable Read-Only Memory (Memória Somente de Leitura Programável Apagável), caracteriza-se por conseguir ser apagada. ... Elas são usadas para as mesmas finalidades que as Mask-ROM, mas em produções de menor escala, devido ao seu custo mais elevado.
+
+
+[23:04, 29/10/2021] 
+Lucas: A memória flash é uma memória do tipo EEPROM (Electrically-Erasable Programmable Read-Only Memory), cujos chips são semelhantes ao da Memória RAM, que permite que diversos endereços sejam apagados ou escritos numa só operação. Em outras palavras, é um chip re-escrevível (regravável) que, ao contrário da memória RAM convencional, preserva o conteúdo sem a utilização de uma fonte de alimentação. A memória flash é encontrada comumente em cartões de memória, flash drives USB (Pen-drives), MP3 Players, iPods, PDAs, câmeras digitais e celulares.
+
+[23:06, 29/10/2021] 
+Lucas: A memória de massa é uma memória não volátil, permanente, ou seja, as informações permanecem mesmo se desligar o computador ou se não tiver uma fonte de energia. Ex.: HD ou pen drive.,
+
+[23:09, 29/10/2021] Guinas Facul: Intel Core i5 é uma série de processadores da Intel destinada a desktop x86-64 que aborda a utilização da microarquitetura Nehalem.[1][2] Diferentemente do processador Intel Core i7, o processador Intel Core i5 utiliza uma soquete denominada LGA 1156. O processador Core Nehalem do processador Core i7. A diferença para o Core i7 se dá pelo fato de que esta geração possui uma controladora de gráficos PCI-Express embutida, utilizando uma interface de comunicação denominada DMI (Direct Media Interface), que agiliza ainda mais a comunicação com o chipset e pela falta do SMT, recurso semelhante ao Hyper-Threading do antigo Pentium 4.
+
+[23:09, 29/10/2021] Guinas Facul: Produzido em:	2009 até o presente
+Fabricante:	Intel
+Frequência do Processador:	2660 MHz a 3.467 MHz
+Litografia:	45, 32, 22 e 14 nm
+Conjunto de instruções:	x86, x86-64, MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX
+Microarquitetura:	Nehalem e Sandy Bridge
+
+[23:10, 29/10/2021] Guinas Facul: Intel Core i7 é uma família de processadores Intel para desktop e notebooks x86-64 (64 bits). A família foi lançada com microarquitetura Intel Nehalem de primeira geração sendo o sucessor dos processadores Intel Core 2 e contou com codinomes Clarkfield (processadores de primeira geração para aparelhos móveis) e Bloomfield, Lynnfield (processadores para desktops de alto desempenho high-end e os de uso geral, respectivamente, ambos da arquitetura Nehalem da primeira geração). O nome continuou com o uso da marca Core da Intel. Foi lançado oficialmente em 17 de novembro de 2008 , sendo fabricado no Arizona, Novo México. Atualmente está sob a 10º geração de processadores intitulada Comet Lake[1], que, assim como a Skylake utiliza litografia de 14nm, com processo de fabricação usando transistores 3D FinFET, aumentando em quase três vezes a capacidade de fabricar transistores menores para processadores comparado a primeira geração.
+
+[23:11, 29/10/2021] Guinas Facul: 
+Produzido em:	2008 até o presente
+Fabricante:	Intel
+Frequência do Processador:	2300 MHz a 5100 MHz
+Frequência do barramento:	2,30 MHz a 5,10 MHz
+Litografia:	45, 32, 22, 14 e 10 nm
+Conjunto de instruções:	x86, x86-64, MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2
+Microarquitetura:	 • Nehalem
+ • Sandy Bridge
+ • Ivy Bridge
+ • Haswell
+ • Broadwell
+ • Skylake
+ • Kaby Lake
+ • Coffe Lake
+Soquetes:	
+LGA 1366
+LGA 1156
+LGA 1155
+LGA 2011
+LGA 1150
+Núcleos:	
+Bloomfield
+Lynnfield
+Clarksfield
+Arrandale
+Sandy Bridge
+Sandy Bridge-E
+Ivy Bridge
+Haswell
+Broadwell
