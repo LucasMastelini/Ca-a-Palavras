@@ -8,21 +8,23 @@ body{
     background-color:burlywood ;  
 }
 
-.conteiner{ 
+.conteiner h1{ 
     display: flex;
     justify-content: center;
     margin-bottom: 10%; 
 }
 
-input{
-    width: 10%;
+.Palavras{
+    margin-left: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
-.CPU{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: space-between ;
+.Palavras input{
+    width: 2%;
 }
 
- 
+
+input:disabled {
+    background: #ccc;
+  }
