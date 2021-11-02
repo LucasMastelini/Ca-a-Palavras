@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+.container{
+  display:flex;
+
+  border: turquoise solid;
+  justify-content:center;
+ 
+
+}
+.mgrid{
+    background-color: gray;
+    display:grid;
+    border: red solid;
+    border:black solid;
+    grid-template-columns:1fr 1fr 1fr;
+    padding:10px;
+   
+
+
+
+    
+}
+
+.black{
+    background-color: black;
+    border: none;
+    height:100%;
+    width:100%;
+}
+#columnUm{
+    display:flex;
+  
+  
+
+}
+#columnDois{
+     padding:10px;
+ 
+}
+
+input{
+    width:20px;
+    font-family: monospace;
+    font-style: italic ;
+    border:black solid 1px;
+}
