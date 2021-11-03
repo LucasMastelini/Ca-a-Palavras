@@ -1,4 +1,4 @@
-body{
+    body{
     margin: 0;
     padding: 0;
     background-color: burlywood;
@@ -13,6 +13,7 @@ body{
     justify-content: center;
     margin-bottom: 1%; 
 }
+
 
 .Palavras {
     margin-bottom: 1rem;
@@ -52,6 +53,11 @@ body{
 .Palavras table {
     border-collapse: collapse;
     margin: 0 auto;
+ 
+}
+.Palavras{
+    height:70%;
+    border:red solid;
 }
 
 tbody {
@@ -59,6 +65,7 @@ tbody {
     vertical-align: middle;
     border-color: inherit;
 }
+
 
 tr {
     display: table-row;
@@ -84,8 +91,10 @@ tr {
     position: absolute;
     top: 1px;
     left: 1px;
-    font-size: .5em;
+    font-size: 1em;
     line-height: 1em;
+    font-weight: bolder;
+  
 }
 
 .Palavras table tbody tr td {
@@ -96,8 +105,8 @@ tr {
     text-transform: uppercase;
     cursor: default;
     position: relative;
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
 }
 
 .game .conteiner{
@@ -109,6 +118,10 @@ tr {
     padding-left: 10%;
     padding-right: 10%;
      
+}
+.dd{
+    background-color:aqua
+    ;
 }
 
 .Palavras input{
