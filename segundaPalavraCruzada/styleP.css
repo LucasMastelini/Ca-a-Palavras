@@ -4,20 +4,25 @@
 
 }
 .container{
-  display:flex;
+display: grid;
 
   border: turquoise solid;
   justify-content:center;
+  background-color:burlywood;
  
 
 }
 .mgrid{
-    background-color: gray;
+    background-color:black;
     display:grid;
     border: red solid;
     border:black solid;
     grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr;
+
     padding:10px;
+    height:80%;
+
    
 
 
@@ -33,17 +38,60 @@
 }
 #columnUm{
     display:flex;
+    border: red solid;
   
   
 
 }
-#columnDois{
-     padding:10px;
- 
+.aaa{display: flex;
+    border: crimson solid 1px;
 }
+#columnDois{
+    display:flex;
+     padding:10px;
+     flex-direction: column;
+     border: red solid 1px;
+ 
+
+}
+.regis{
+    border: aqua solid 1px;
+}
+#columnTres{
+    display: flex;
+  
+        border: red solid;
+
+}
+.memmassa{
+    border: red solid 1px;
+}
+.tit{
+    border: aqua solid 1px;
+    float:right;
+
+    color: white;
+
+}
+.in{
+    display: flex;
+    border:red solid 1px;
+}
+.ind{
+    display: flex;
+    flex-direction:row;
+    border: red solid;
+}
+.indi{
+    border: red solid;
+
+}
+
+
 
 input{
     width:20px;
+    
     font-family: monospace;
     font-style: italic ;
     border:black solid 1px;
