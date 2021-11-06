@@ -25,15 +25,16 @@
     margin: 0 auto;
  
 }
-.Palavras{
-    height:70%;
-    border:red solid;
+
+.aviso{
+    margin-left: 35%;
 }
 
 tbody {
     display: table-row-group;
     vertical-align: middle;
     border-color: inherit;
+    border: blue double 5px;
 }
 
 
